@@ -7,7 +7,7 @@ resource "aws_instance" "myawsserver" {
   key_name = "marcin-import-keypair"
 
   tags = {
-    Name = "Marcin-devops-server"
+    Name = "Marcin-devops-server-v2"
     env = "prod"
   }
   provisioner "local-exec" {
